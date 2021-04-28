@@ -1,0 +1,16 @@
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Orelega One', cursive;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+#return {
+    color: black;
+    text-decoration: none;
+}
