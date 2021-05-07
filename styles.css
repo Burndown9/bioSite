@@ -1,3 +1,7 @@
+body {
+    background-color: gainsboro;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
 }
@@ -17,4 +21,25 @@ h1 {
 
 .ignore-css {
     all:unset;
+}
+
+#navbar {
+    background-color: black;
+    color: white;
+    font-weight: 800;
+    font-size: 24pt;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+#navbar a:visited {
+    color: gainsboro;
+}
+
+#navbar a:hover {
+    color: red;
 }
